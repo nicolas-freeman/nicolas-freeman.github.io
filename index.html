@@ -2,7 +2,7 @@
 <head>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src=".js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <title>Resume Nicolas Freeman</title>
 </head>
 <body>
@@ -82,9 +82,9 @@
                 </div>
                 <hr/>
                 <div>
-                    <h2>Formation</h2>
-                    <div class="container">
-                        <div class="row education" id="exp1">
+                    <h2>Formation<img class="arrow" onclick="hide(this.id)" src="./images/arrow.png" id="edu"/></h2>
+                    <div class="container" id="eduContainer">
+                        <div class="row education" id="edu1">
                             <div class="col-9">
                                 <strong>Etudiant à l'ESSEC</strong>
                                 <br/><em>École supérieure des sciences économiques et commerciales, Cergy</em>
@@ -93,7 +93,7 @@
                             <div class="col-3">2015-Aujourd'hui
                             </div>
                         </div>
-                        <div class="row education" id="exp2">
+                        <div class="row education" id="edu2">
                             <div class="col-9">
                                 <strong>Classe préparatoire</strong>
                                 <br/><em>Lycée Clemenceau, Nantes</em>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="col-3">2013-2015</div>
                         </div>
-                        <div class="row education" id="exp3">
+                        <div class="row education" id="edu3">
                             <div class="col-9 experience" style="padding-bottom:0px;">
                                 <strong>Baccalauréat scientifique</strong>
                                 <br/><em>Lycée Dupuy de Lôme, Lorient</em>
@@ -113,8 +113,8 @@
                 </div> 
                 <hr/>
                 <div class="experience">
-                    <h2>Expérience professionnelle</h2>
-                    <div class="container">
+                    <h2>Expérience professionnelle<img class="arrow" onclick="hide(this.id)" src="./images/arrow.png" id="exp"/></h2>
+                    <div class="container" id="expContainer">
                         <div class="row" id="exp1">
                             <div class="col-9">
                                 <strong>Artomatix</strong>
@@ -184,4 +184,5 @@
 
             </div>
     </div>
+    <script src="./js/code.js"></script>
 </body>

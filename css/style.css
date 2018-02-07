@@ -52,3 +52,17 @@ ul {
         border-right: solid rgba(0,0,0,.1) 1px;
     }
   }
+
+.arrow{
+    margin-left: 5px;
+    height: 45px;
+    width: 45px;
+}
+
+#expContainer{
+    display:none;
+}
+
+#eduContainer{
+    display:none;
+}
